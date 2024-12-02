@@ -18,7 +18,9 @@ https://www.oracle.com/in/database/technologies/oracle-database-software-downloa
 Execute below commands as root user on Linux 8 that Installs and creates Oracle database.
 
 dnf install -y oracle-database-preinstall*
+
 dnf install -y oracle-database-free*
+
 /etc/init.d/oracle-free-23ai configure
 
 Oracel 23ai new features are
