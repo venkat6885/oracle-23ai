@@ -3,7 +3,7 @@ Oracle 23ai free installation on Oracle Linux 8
 1. Downloaded Oracle Virtual Box 7.0.22
 2. Pre-requisites to install Oracle Virtual Box are Microsoft Visual C++ Redistributable version 19, Python, pywin32.
 3. Microsoft Visual C++ Redistributable latest supported downloads location at https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-4. Install Python and pywin32 (pip install pywin32) to fix the below missing dependencies.
+4. Install Python and pywin32 (pip install pywin32) to fix the missing dependencies.
 5. Install Oracle Virtual Box 7.0.22
 6. Install Oracle Linux 8 using git repo https://github.com/oracle/vagrant-projects/tree/main/OracleLinux/8. You can browse https://github.com/Oracle for all the repositories.
 7. You can follow steps 1-6 mentioned at https://github.com/oracle/vagrant-projects/tree/main/OracleLinux/8, ensure vagarnt is installed on your system.
