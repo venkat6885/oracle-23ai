@@ -26,16 +26,13 @@ Follow the steps under Enterprise Linux 8 in https://www.oracle.com/in/database/
 oracle-database-preinstall-23ai-1.0-2.el8.x86_64.rpm
 oracle-database-free-23ai-1.0-1.el8.x86_64.rpm
 
-as a root user,
+as a root user execute below commands.
 
-	
-Run dnf install -y oracle-database-preinstall*
-Run dnf install -y oracle-database-free*
-Run /etc/init.d/oracle-free-23ai configure
+dnf install -y oracle-database-preinstall*
+dnf install -y oracle-database-free*
+/etc/init.d/oracle-free-23ai configure
 
 which Installs and creates Oracle database.
-
-Feature.
 
 1. All tablespaces except temp are Big file tablespaces in Oracle 23ai.
 
