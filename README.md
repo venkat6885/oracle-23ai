@@ -27,12 +27,12 @@ Oracel 23ai new features are
 
 1. All tablespaces except temp are Big file tablespaces in Oracle 23ai.
 
-All tablespaces in oracle database 23ai are bigfile tablespaces, except temp tablespace.
+	All tablespaces in oracle database 23ai are bigfile tablespaces, except temp tablespace.
 
-The minimum datafile size needs to be 784 blocks i.e. 6.25 MB.
+	The minimum datafile size needs to be 784 blocks i.e. 6.25 MB.
 
-The tablespaces created under root container are SYSTEM, SYSAUX, USERS, UNDOTBS1, TEMP.
+	The tablespaces created under root container are SYSTEM, SYSAUX, USERS, UNDOTBS1, TEMP.
 
-The tablespaces created under seed container are SYSTEM, SYSAUX, UNDOTBS1, TEMP.
+	The tablespaces created under seed container are SYSTEM, SYSAUX, UNDOTBS1, TEMP.
 
-PDB has its own  SYSTEM, SYSAUX, USERS, UNDOTBS1, TEMP.
+	PDB has its own  SYSTEM, SYSAUX, USERS, UNDOTBS1, TEMP.
