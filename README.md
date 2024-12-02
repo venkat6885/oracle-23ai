@@ -1,4 +1,4 @@
-Oracle 23ai free installation on Oracle Linux 8
+Oracle 23ai free version, Installation and Database creation on Oracle Linux 8
 
 1. Downloaded Oracle Virtual Box 7.0.22
 2. Pre-requisites to install Oracle Virtual Box are Microsoft Visual C++ Redistributable version 19, Python, pywin32.
